@@ -1,6 +1,6 @@
 #!/bin/bash
 echo "Creating Migrations..."
-python3 manage.py makemigrations bank_app
+python3 manage.py makemigrations bank_app users_app
 echo ====================================
 
 echo "Starting Migrations..."
